@@ -1,0 +1,7 @@
+# Dependencies
+openai>=1.0.0
+pandas>=2.0.0
+ipython>=8.0.0
+
+# Optional: for enhanced display
+jupyter>=1.0.0
