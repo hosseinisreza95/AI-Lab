@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4F8CF7"/>
+      <stop offset="1" stop-color="#22C1C3"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24,0 H0 V24" fill="none" stroke="#ffffff" stroke-opacity="0.09" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#ffffff" fill-opacity="0.95"/>
+    </marker>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <rect width="800" height="450" fill="url(#grid)"/>
+  <text x="30.0" y="32.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#ffffff" opacity="0.9" letter-spacing="1.6">ARCHITECTURE · INDUSTRIAL MAINTENANCE INTERVENTION INSIGHTS</text>
+
+  <g>
+<circle cx="58" cy="136" r="9" stroke="#ffffff" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M42,162 a16,16 0 0 1 32,0" stroke="#ffffff" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="58.0" y="180.0" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#ffffff" opacity="1.0">Technician</text>
+<text x="58.0" y="193.0" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.85">tablet on site</text>
+<rect x="106.0" y="124.0" width="118" height="52" rx="10" fill="#ffffff" fill-opacity="0.17" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<rect x="119.0" y="142" width="10" height="16" rx="2" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M122.0,155.5 h4" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="140.0" y="148.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" opacity="1.0">Tablet App</text>
+<text x="140.0" y="162.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.88">alert → report</text>
+<polyline points="84.0,150.0 104.0,150.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="242.0" y="124.0" width="140" height="52" rx="10" fill="#ffffff" fill-opacity="0.17" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<path d="M254.0,142 h8 l4,4 v12 h-12 z" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M257.0,150 h6 M257.0,154 h6" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="276.0" y="148.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" opacity="1.0">Free-text Report</text>
+<text x="276.0" y="162.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.88">typos · jargon</text>
+<polyline points="226.0,150.0 240.0,150.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="400" y="62" width="190" height="370" rx="14" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1.2" stroke-dasharray="6 5"/>
+<text x="414.0" y="80.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="700" fill="#ffffff" opacity="0.85" letter-spacing="1.2">STAGE 1 · STRUCTURING</text>
+<rect x="420.0" y="124.0" width="150" height="52" rx="10" fill="#ffffff" fill-opacity="0.3" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<rect x="432.0" y="144" width="12" height="12" rx="2" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M436.0,144 v-3 M440.0,144 v-3 M436.0,156 v3 M440.0,156 v3 M432.0,148 h-3 M432.0,152 h-3 M444.0,148 h3 M444.0,152 h3" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="454.0" y="148.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" opacity="1.0">LLM Extraction</text>
+<text x="454.0" y="162.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.88">clean · normalize · classify</text>
+<polyline points="384.0,150.0 418.0,150.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M430.0,302.0 v56 a65.0,7 0 0 0 130,0 v-56" fill="#ffffff" fill-opacity="0.17" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<ellipse cx="495" cy="302.0" rx="65.0" ry="7" fill="#ffffff" fill-opacity="0.17" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<text x="495.0" y="333.0" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#ffffff" opacity="1.0">Structured DB</text>
+<text x="495.0" y="346.0" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.88">by machine type</text>
+<polyline points="495.0,178.0 495.0,292.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="520.0" y="240.0" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#ffffff" opacity="0.95">records</text>
+<rect x="605" y="62" width="173" height="370" rx="14" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1.2" stroke-dasharray="6 5"/>
+<text x="619.0" y="80.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="700" fill="#ffffff" opacity="0.85" letter-spacing="1.2">STAGE 2 · REPORTING</text>
+<rect x="627.0" y="304.0" width="130" height="52" rx="10" fill="#ffffff" fill-opacity="0.17" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<path d="M638.0,337 h14 M640.0,335 v-6 M645.0,335 v-10 M650.0,335 v-3" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="661.0" y="328.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" opacity="1.0">Analytics</text>
+<text x="661.0" y="342.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.88">counts · trends</text>
+<polyline points="562.0,330.0 625.0,330.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="627.0" y="179.0" width="130" height="52" rx="10" fill="#ffffff" fill-opacity="0.3" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<rect x="639.0" y="199" width="12" height="12" rx="2" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M643.0,199 v-3 M647.0,199 v-3 M643.0,211 v3 M647.0,211 v3 M639.0,203 h-3 M639.0,207 h-3 M651.0,203 h3 M651.0,207 h3" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="661.0" y="203.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" opacity="1.0">LLM Report Gen</text>
+<text x="661.0" y="217.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.88">monthly summary</text>
+<polyline points="692.0,302.0 692.0,233.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="627.0" y="83.0" width="130" height="46" rx="10" fill="#ffffff" fill-opacity="0.17" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<path d="M639.0,98 h8 l4,4 v12 h-12 z" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M642.0,106 h6 M642.0,110 h6" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="661.0" y="104.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" opacity="1.0">Monthly Report</text>
+<text x="661.0" y="118.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.88">→ management</text>
+<polyline points="692.0,178.0 692.0,131.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" marker-end="url(#arrow)"/>
+
+  </g>
+</svg>

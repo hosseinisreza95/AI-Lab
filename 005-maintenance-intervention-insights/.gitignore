@@ -1,0 +1,21 @@
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Database (rebuilt by `python main.py structure`)
+*.db
+*.sqlite3
+
+# Generated reports
+reports/*.md
+reports/*.json
+
+# Logs
+*.log
