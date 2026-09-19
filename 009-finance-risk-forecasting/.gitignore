@@ -1,0 +1,17 @@
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated data and model artifacts (rebuilt by the pipeline)
+data/raw/
+outputs/
+
+# Logs
+*.log
