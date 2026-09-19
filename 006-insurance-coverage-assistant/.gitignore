@@ -1,0 +1,19 @@
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Clause index (rebuilt by `python -m ingestion.ingest`)
+.index/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log

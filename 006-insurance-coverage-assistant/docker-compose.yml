@@ -1,0 +1,32 @@
+services:
+  api:
+    build: .
+    container_name: coverage_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - clause_index:/app/.index
+    env_file:
+      - .env
+    restart: unless-stopped
+
+  ui:
+    build: .
+    container_name: coverage_ui
+    command: streamlit run ui/app.py --server.address 0.0.0.0 --server.port 8501
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    environment:
+      # Inside the compose network the API is reachable by service name.
+      - API_URL=http://api:8000
+    env_file:
+      - .env
+    depends_on:
+      - api
+    restart: unless-stopped
+
+volumes:
+  clause_index:

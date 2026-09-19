@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7C5CFC"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24,0 H0 V24" fill="none" stroke="#ffffff" stroke-opacity="0.09" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#ffffff" fill-opacity="0.95"/>
+    </marker>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <rect width="800" height="450" fill="url(#grid)"/>
+  <text x="30.0" y="32.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#ffffff" opacity="0.9" letter-spacing="1.6">ARCHITECTURE · INSURANCE COVERAGE ASSISTANT</text>
+
+  <g>
+<circle cx="58" cy="136" r="9" stroke="#ffffff" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M42,162 a16,16 0 0 1 32,0" stroke="#ffffff" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="58.0" y="180.0" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#ffffff" opacity="1.0">Advisor</text>
+<text x="58.0" y="193.0" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.85">customer case</text>
+<rect x="110.0" y="124.0" width="120" height="52" rx="10" fill="#ffffff" fill-opacity="0.17" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<rect x="123.0" y="142" width="10" height="16" rx="2" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M126.0,155.5 h4" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="144.0" y="148.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" opacity="1.0">Advisor App</text>
+<text x="144.0" y="162.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.88">web</text>
+<polyline points="84.0,150.0 108.0,150.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="270.0" y="124.0" width="140" height="52" rx="10" fill="#ffffff" fill-opacity="0.17" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<rect x="282.0" y="144" width="12" height="12" rx="2" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M286.0,144 v-3 M290.0,144 v-3 M286.0,156 v3 M290.0,156 v3 M282.0,148 h-3 M282.0,152 h-3 M294.0,148 h3 M294.0,152 h3" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="304.0" y="148.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" opacity="1.0">Query Builder</text>
+<text x="304.0" y="162.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.88">LLM · case → query</text>
+<polyline points="232.0,150.0 268.0,150.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="250.0" y="116.0" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#ffffff" opacity="0.95">situation</text>
+<rect x="455.0" y="124.0" width="130" height="52" rx="10" fill="#ffffff" fill-opacity="0.3" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<circle cx="473.0" cy="150" r="3" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M473.0,142 v3 M473.0,155 v3 M465.0,150 h3 M478.0,150 h3 M467.3,144.3 l2.1,2.1 M476.6,153.6 l2.1,2.1 M478.7,144.3 l-2.1,2.1 M469.4,153.6 l-2.1,2.1" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="489.0" y="148.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" opacity="1.0">Retriever</text>
+<text x="489.0" y="162.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.88">hybrid search</text>
+<polyline points="412.0,150.0 453.0,150.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="640.0" y="124.0" width="120" height="52" rx="10" fill="#ffffff" fill-opacity="0.3" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<rect x="652.0" y="144" width="12" height="12" rx="2" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M656.0,144 v-3 M660.0,144 v-3 M656.0,156 v3 M660.0,156 v3 M652.0,148 h-3 M652.0,152 h-3 M664.0,148 h3 M664.0,152 h3" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="674.0" y="148.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" opacity="1.0">LLM Answer</text>
+<text x="674.0" y="162.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.88">cites clauses</text>
+<polyline points="587.0,150.0 638.0,150.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="612.0" y="116.0" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#ffffff" opacity="0.95">clauses</text>
+<polyline points="700.0,122.0 700.0,96.0 170.0,96.0 170.0,122.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="430.0" y="90.0" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#ffffff" opacity="0.95">what is covered</text>
+<rect x="258" y="232" width="520" height="186" rx="14" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1.2" stroke-dasharray="6 5"/>
+<text x="272.0" y="250.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="700" fill="#ffffff" opacity="0.85" letter-spacing="1.2">CONTRACT KNOWLEDGE BASE</text>
+<rect x="280.0" y="280.0" width="164" height="40" rx="10" fill="#ffffff" fill-opacity="0.17" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<path d="M292.0,292 h8 l4,4 v12 h-12 z" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M295.0,300 h6 M295.0,304 h6" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="314.0" y="304.5" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" opacity="1.0">Insurance Contracts</text>
+<rect x="280.0" y="340.0" width="164" height="40" rx="10" fill="#ffffff" fill-opacity="0.17" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<path d="M292.0,352 h8 l4,4 v12 h-12 z" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M295.0,360 h6 M295.0,364 h6" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="314.0" y="364.5" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" opacity="1.0">Policy Documents</text>
+<rect x="475.0" y="304.0" width="130" height="52" rx="10" fill="#ffffff" fill-opacity="0.17" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<circle cx="493.0" cy="330" r="3" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M493.0,322 v3 M493.0,335 v3 M485.0,330 h3 M498.0,330 h3 M487.3,324.3 l2.1,2.1 M496.6,333.6 l2.1,2.1 M498.7,324.3 l-2.1,2.1 M489.4,333.6 l-2.1,2.1" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="509.0" y="328.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" opacity="1.0">Chunk &amp; Embed</text>
+<text x="509.0" y="342.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.88">per contract</text>
+<polyline points="446.0,300.0 460.0,300.0 460.0,330.0 473.0,330.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" marker-end="url(#arrow)"/>
+<polyline points="446.0,360.0 460.0,360.0 460.0,330.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M640.0,304.0 v52 a60.0,7 0 0 0 120,0 v-52" fill="#ffffff" fill-opacity="0.17" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<ellipse cx="700" cy="304.0" rx="60.0" ry="7" fill="#ffffff" fill-opacity="0.17" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<text x="700.0" y="333.0" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#ffffff" opacity="1.0">Vector Index</text>
+<text x="700.0" y="346.0" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.88">+ metadata filters</text>
+<polyline points="607.0,330.0 638.0,330.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" marker-end="url(#arrow)"/>
+<polyline points="700.0,297.0 700.0,214.0 560.0,214.0 560.0,178.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="630.0" y="208.0" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#ffffff" opacity="0.95">top-k clauses</text>
+
+  </g>
+</svg>
