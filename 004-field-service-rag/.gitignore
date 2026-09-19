@@ -1,0 +1,18 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Vector index and chunk store (rebuilt by `python -m ingestion.ingest`)
+.index/
+
+# Logs
+*.log

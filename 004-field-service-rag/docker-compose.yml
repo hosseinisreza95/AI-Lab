@@ -1,0 +1,16 @@
+services:
+  technician-rag:
+    build: .
+    container_name: field_service_rag
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      # Keep the index outside the bind mount so a rebuild is not lost on restart.
+      - rag_index:/app/.index
+    env_file:
+      - .env
+    restart: unless-stopped
+
+volumes:
+  rag_index:
