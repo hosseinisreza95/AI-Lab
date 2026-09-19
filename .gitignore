@@ -1,2 +1,7 @@
+# Real secrets: never committed.
 .env
 .env.*
+
+# Templates: always committed, so a reader knows which variables to set.
+!.env.example
+!.env.template

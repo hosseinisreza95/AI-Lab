@@ -33,6 +33,12 @@ Each experiment includes source code, documentation, lessons learned, and (when 
 | 001 | Code Agent | [Link](./001-code-agent/README.md) | [Video](https://www.youtube.com/watch?v=oOKBC57IeOI&list=PLFf9tFmijLOE) |
 | 002 | Order Tracking Agent | [Link](./002-order-tracking-agent/README.md) | ⏳ |
 | 003 | Multi-Agent Data Analyst | [Link](./003-multi-agent-data-analyst/README.md) | ⏳ |
+| 004 | Field Service Technician RAG Assistant | [Link](./004-field-service-rag/README.md) | ⏳ |
+| 005 | Industrial Maintenance Intervention Insights | [Link](./005-maintenance-intervention-insights/README.md) | ⏳ |
+| 006 | Insurance Coverage Assistant | [Link](./006-insurance-coverage-assistant/README.md) | ⏳ |
+| 007 | Food Service Demand & Ordering Agent | [Link](./007-food-service-ordering-agent/README.md) | ⏳ |
+| 008 | Retail Supply Chain Delivery Forecasting | [Link](./008-supply-chain-forecasting-rag/README.md) | ⏳ |
+| 009 | Finance: Credit Scoring, Risk & Forecasting | [Link](./009-finance-risk-forecasting/README.md) | ⏳ |
 | ... | More experiments coming soon... | 🚧 | ⏳ |
 
 
