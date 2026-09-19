@@ -1,0 +1,103 @@
+# Serving layer. Stateless: every pod reads the curated Parquet and the model
+# artifact from the shared volume the pipeline CronJob writes to.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: supply-chain-api
+  labels:
+    app: supply-chain-api
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: supply-chain-api
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 0
+      maxSurge: 1
+  template:
+    metadata:
+      labels:
+        app: supply-chain-api
+    spec:
+      containers:
+        - name: api
+          image: ghcr.io/example/supply-chain-rag:latest
+          ports:
+            - containerPort: 8000
+          env:
+            - name: CHAT_MODEL
+              value: gpt-4o-mini
+            - name: OPENAI_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: supply-chain-secrets
+                  key: openai-api-key
+          resources:
+            requests:
+              cpu: 250m
+              memory: 768Mi
+            limits:
+              cpu: "1"
+              memory: 2Gi
+          # Liveness only checks the process. Readiness checks that the curated
+          # artifacts are present, so a pod with no data never takes traffic.
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 20
+            periodSeconds: 30
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 10
+            periodSeconds: 10
+            failureThreshold: 3
+          volumeMounts:
+            - name: curated-data
+              mountPath: /app/data/curated
+              readOnly: true
+            - name: models
+              mountPath: /app/models
+              readOnly: true
+      volumes:
+        - name: curated-data
+          persistentVolumeClaim:
+            claimName: supply-chain-curated
+        - name: models
+          persistentVolumeClaim:
+            claimName: supply-chain-models
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: supply-chain-api
+spec:
+  selector:
+    app: supply-chain-api
+  ports:
+    - port: 80
+      targetPort: 8000
+  type: ClusterIP
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: supply-chain-api
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: supply-chain-api
+  minReplicas: 3
+  maxReplicas: 10
+  metrics:
+    - type: Resource
+      resource:
+        name: cpu
+        target:
+          type: Utilization
+          averageUtilization: 70

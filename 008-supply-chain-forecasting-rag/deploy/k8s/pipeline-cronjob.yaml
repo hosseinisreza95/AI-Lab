@@ -1,0 +1,71 @@
+# Batch layer. In production Airflow triggers the Spark job on the cluster; this
+# CronJob is the equivalent for a deployment without an Airflow installation.
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: supply-chain-pipeline
+spec:
+  schedule: "0 3 * * *"
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 5
+  jobTemplate:
+    spec:
+      backoffLimit: 2
+      template:
+        spec:
+          restartPolicy: OnFailure
+          containers:
+            - name: pipeline
+              image: ghcr.io/example/supply-chain-rag:latest
+              command: ["/bin/sh", "-c"]
+              args:
+                - |
+                  set -e
+                  python -m pipeline.features
+                  python -m pipeline.planning_views
+                  python -m pipeline.train_delivery_model
+              env:
+                - name: SPARK_SHUFFLE_PARTITIONS
+                  value: "64"
+                - name: JAVA_HOME
+                  value: /opt/java/openjdk
+              resources:
+                requests:
+                  cpu: "2"
+                  memory: 6Gi
+                limits:
+                  cpu: "4"
+                  memory: 12Gi
+              volumeMounts:
+                - name: curated-data
+                  mountPath: /app/data/curated
+                - name: models
+                  mountPath: /app/models
+          volumes:
+            - name: curated-data
+              persistentVolumeClaim:
+                claimName: supply-chain-curated
+            - name: models
+              persistentVolumeClaim:
+                claimName: supply-chain-models
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: supply-chain-curated
+spec:
+  accessModes: ["ReadWriteMany"]
+  resources:
+    requests:
+      storage: 20Gi
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: supply-chain-models
+spec:
+  accessModes: ["ReadWriteMany"]
+  resources:
+    requests:
+      storage: 5Gi
