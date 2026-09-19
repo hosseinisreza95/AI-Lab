@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22C1C3"/>
+      <stop offset="1" stop-color="#4F8CF7"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24,0 H0 V24" fill="none" stroke="#ffffff" stroke-opacity="0.09" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#ffffff" fill-opacity="0.95"/>
+    </marker>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <rect width="800" height="450" fill="url(#grid)"/>
+  <text x="30.0" y="32.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#ffffff" opacity="0.9" letter-spacing="1.6">ARCHITECTURE · FOOD SERVICE DEMAND &amp; ORDERING AGENT</text>
+
+  <g>
+<rect x="30" y="52" width="748" height="180" rx="14" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1.2" stroke-dasharray="6 5"/>
+<text x="44.0" y="70.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="700" fill="#ffffff" opacity="0.85" letter-spacing="1.2">FORECASTING PIPELINE</text>
+<path d="M55.0,119.0 v52 a65.0,7 0 0 0 130,0 v-52" fill="#ffffff" fill-opacity="0.17" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<ellipse cx="120" cy="119.0" rx="65.0" ry="7" fill="#ffffff" fill-opacity="0.17" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<text x="120.0" y="148.0" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#ffffff" opacity="1.0">Historical Data</text>
+<text x="120.0" y="161.0" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.88">POS · footfall</text>
+<rect x="245.0" y="119.0" width="150" height="52" rx="10" fill="#ffffff" fill-opacity="0.3" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<path d="M256.0,152 h14 M258.0,150 v-6 M263.0,150 v-10 M268.0,150 v-3" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="279.0" y="143.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" opacity="1.0">Time-Series Model</text>
+<text x="279.0" y="157.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.88">LSTM / ARIMA</text>
+<polyline points="187.0,145.0 243.0,145.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="440.0" y="119.0" width="140" height="52" rx="10" fill="#ffffff" fill-opacity="0.17" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<circle cx="458.0" cy="145" r="3" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M458.0,137 v3 M458.0,150 v3 M450.0,145 h3 M463.0,145 h3 M452.3,139.3 l2.1,2.1 M461.6,148.6 l2.1,2.1 M463.7,139.3 l-2.1,2.1 M454.4,148.6 l-2.1,2.1" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="474.0" y="143.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" opacity="1.0">Inventory Engine</text>
+<text x="474.0" y="157.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.88">forecast vs stock</text>
+<polyline points="397.0,145.0 438.0,145.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="418.0" y="111.0" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#ffffff" opacity="0.95">traffic forecast</text>
+<rect x="625.0" y="119.0" width="130" height="52" rx="10" fill="#ffffff" fill-opacity="0.17" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<path d="M636.0,152 h14 M638.0,150 v-6 M643.0,150 v-10 M648.0,150 v-3" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="659.0" y="143.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" opacity="1.0">Stock-out Alerts</text>
+<text x="659.0" y="157.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.88">next week</text>
+<polyline points="582.0,145.0 623.0,145.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="30" y="250" width="748" height="180" rx="14" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1.2" stroke-dasharray="6 5"/>
+<text x="44.0" y="268.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="700" fill="#ffffff" opacity="0.85" letter-spacing="1.2">AGENTIC ORDERING</text>
+<circle cx="70" cy="321" r="9" stroke="#ffffff" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M54,347 a16,16 0 0 1 32,0" stroke="#ffffff" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="70.0" y="365.0" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#ffffff" opacity="1.0">Manager</text>
+<text x="70.0" y="378.0" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.85">chat</text>
+<rect x="130.0" y="311.0" width="100" height="48" rx="10" fill="#ffffff" fill-opacity="0.17" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<rect x="141.0" y="330" width="14" height="11" rx="3" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M148.0,330 v-4 M145.0,335 h0.1 M151.0,335 h0.1" stroke="#ffffff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="164.0" y="333.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" opacity="1.0">Chatbot</text>
+<text x="164.0" y="347.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.88">LLM</text>
+<polyline points="96.0,335.0 128.0,335.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="260.0" y="309.0" width="150" height="52" rx="10" fill="#ffffff" fill-opacity="0.3" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<rect x="272.0" y="329" width="12" height="12" rx="2" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M276.0,329 v-3 M280.0,329 v-3 M276.0,341 v3 M280.0,341 v3 M272.0,333 h-3 M272.0,337 h-3 M284.0,333 h3 M284.0,337 h3" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="294.0" y="333.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" opacity="1.0">LangGraph Agent</text>
+<text x="294.0" y="347.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.88">plan · call tools</text>
+<polyline points="230.0,335.0 258.0,335.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="244.0" y="301.0" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#ffffff" opacity="0.95">order request</text>
+<path d="M245.0,390.0 v30 a55.0,7 0 0 0 110,0 v-30" fill="#ffffff" fill-opacity="0.17" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<ellipse cx="300" cy="390.0" rx="55.0" ry="7" fill="#ffffff" fill-opacity="0.17" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<text x="300.0" y="413.0" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#ffffff" opacity="1.0">Inventory DB</text>
+<rect x="380.0" y="387.0" width="144" height="36" rx="10" fill="#ffffff" fill-opacity="0.17" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<path d="M392.0,397 h8 l4,4 v12 h-12 z" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M395.0,405 h6 M395.0,409 h6" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="414.0" y="409.5" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" opacity="1.0">Supplier Registry</text>
+<polyline points="315.0,362.0 315.0,383.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<polyline points="355.0,362.0 400.0,386.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<rect x="535.0" y="309.0" width="130" height="52" rx="10" fill="#ffffff" fill-opacity="0.17" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<path d="M547.0,327 h8 l4,4 v12 h-12 z" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M550.0,335 h6 M550.0,339 h6" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="569.0" y="333.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" opacity="1.0">Purchase Order</text>
+<text x="569.0" y="347.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.88">PDF generated</text>
+<polyline points="412.0,335.0 533.0,335.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="692.0" y="309.0" width="96" height="52" rx="10" fill="#ffffff" fill-opacity="0.17" stroke="#ffffff" stroke-opacity="0.65" stroke-width="1.4"/>
+<rect x="702.0" y="330" width="16" height="11" rx="2" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M702.0,331 l8,6 l8,-6" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="726.0" y="333.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff" opacity="1.0">Email</text>
+<text x="726.0" y="347.0" text-anchor="start" font-family="Poppins, Arial, sans-serif" font-size="9.5" font-weight="400" fill="#ffffff" opacity="0.88">to supplier</text>
+<polyline points="667.0,335.0 690.0,335.0" fill="none" stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8" marker-end="url(#arrow)"/>
+
+  </g>
+</svg>

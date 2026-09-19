@@ -1,0 +1,11 @@
+services:
+  agent-api:
+    build: .
+    container_name: food_service_agent
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    restart: unless-stopped

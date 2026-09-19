@@ -1,0 +1,21 @@
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Database (rebuilt by `python -m database.seed`)
+*.db
+*.sqlite3
+
+# Generated purchase orders and dry-run emails
+outbox/*.pdf
+outbox/*.eml
+
+# Logs
+*.log
