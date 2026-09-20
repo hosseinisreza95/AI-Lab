@@ -39,6 +39,7 @@ Each experiment includes source code, documentation, lessons learned, and (when 
 | 007 | Food Service Demand & Ordering Agent | [Link](./007-food-service-ordering-agent/README.md) | ⏳ |
 | 008 | Retail Supply Chain Delivery Forecasting | [Link](./008-supply-chain-forecasting-rag/README.md) | ⏳ |
 | 009 | Finance: Credit Scoring, Risk & Forecasting | [Link](./009-finance-risk-forecasting/README.md) | ⏳ |
+| 010 | NVIDIA 10-K RAG Evaluation | [Link](./010-nvidia-rag-eval/README.md) | ⏳ |
 | ... | More experiments coming soon... | 🚧 | ⏳ |
 
 
