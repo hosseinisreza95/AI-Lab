@@ -1,0 +1,77 @@
+[
+  {
+    "query": "Who is NVIDIA's President and Chief Executive Officer?",
+    "ground_truth": "NVIDIA's President and Chief Executive Officer is Jen-Hsun Huang.",
+    "category": "control"
+  },
+  {
+    "query": "What was NVIDIA's total revenue for fiscal year 2026?",
+    "ground_truth": "NVIDIA's total revenue for fiscal year 2026 was $215,938 million.",
+    "category": "control"
+  },
+  {
+    "query": "What was NVIDIA's net income per diluted share for fiscal year 2026?",
+    "ground_truth": "NVIDIA's net income per diluted share for fiscal year 2026 was $4.90.",
+    "category": "control"
+  },
+  {
+    "query": "According to the Stock Performance Graph, what was the cumulative value of a $100 investment in NVIDIA stock as of January 25, 2026?",
+    "ground_truth": "The cumulative value of a $100 investment in NVIDIA stock as of January 25, 2026 was $1,448.75.",
+    "category": "control"
+  },
+  {
+    "query": "What was NVIDIA's depreciation and amortization expense attributable to the Compute & Networking segment in fiscal year 2026?",
+    "ground_truth": "NVIDIA's depreciation and amortization expense attributable to the Compute & Networking segment in fiscal year 2026 was $1.6 billion.",
+    "category": "control"
+  },
+  {
+    "query": "Who is NVIDIA's Chief Financial Officer?",
+    "ground_truth": "NVIDIA's Chief Financial Officer is Colette M. Kress.",
+    "category": "small_table_averaging"
+  },
+  {
+    "query": "Who is NVIDIA's Executive Vice President, Worldwide Field Operations?",
+    "ground_truth": "NVIDIA's Executive Vice President, Worldwide Field Operations is Ajay K. Puri.",
+    "category": "small_table_averaging"
+  },
+  {
+    "query": "Who is NVIDIA's Executive Vice President, General Counsel and Secretary?",
+    "ground_truth": "NVIDIA's Executive Vice President, General Counsel and Secretary is Timothy S. Teter.",
+    "category": "small_table_averaging"
+  },
+  {
+    "query": "How much stock-based compensation expense was recorded under Cost of Revenue for fiscal year 2026?",
+    "ground_truth": "The stock-based compensation expense recorded under Cost of Revenue for fiscal year 2026 was $261 million.",
+    "category": "lexical_distractor"
+  },
+  {
+    "query": "How much in inventory provisions did NVIDIA record in cost of revenue for fiscal year 2026?",
+    "ground_truth": "NVIDIA recorded inventory provisions of $4.0 billion in cost of revenue for fiscal year 2026.",
+    "category": "lexical_distractor"
+  },
+  {
+    "query": "According to Note 3, how much stock-based compensation expense was recorded under Research and Development for fiscal year 2026?",
+    "ground_truth": "The stock-based compensation expense recorded under Research and Development for fiscal year 2026 was $4,676 million.",
+    "category": "intro_table_split"
+  },
+  {
+    "query": "According to Note 3, how much stock-based compensation expense was recorded under Sales, General and Administrative for fiscal year 2026?",
+    "ground_truth": "The stock-based compensation expense recorded under Sales, General and Administrative for fiscal year 2026 was $1,449 million.",
+    "category": "intro_table_split"
+  },
+  {
+    "query": "What was the total stock-based compensation expense for fiscal year 2026?",
+    "ground_truth": "The total stock-based compensation expense for fiscal year 2026 was $6,386 million.",
+    "category": "intro_table_split"
+  },
+  {
+    "query": "Which two NVIDIA executives both previously worked at Texas Instruments?",
+    "ground_truth": "The two NVIDIA executives who both previously worked at Texas Instruments are Colette M. Kress and Ajay K. Puri.",
+    "category": "pseudo_multihop_lexical"
+  },
+  {
+    "query": "Which two NVIDIA executives both previously worked at Hewlett-Packard?",
+    "ground_truth": "The two NVIDIA executives who both previously worked at Hewlett-Packard are Ajay K. Puri and Debora Shoquist.",
+    "category": "pseudo_multihop_lexical"
+  }
+]

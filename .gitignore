@@ -1,7 +1,11 @@
 # Real secrets: never committed.
 .env
 .env.*
-
+__pycache__/
+*.pyc
+vector_store/
+graph_store/
+chunks_output/
 # Templates: always committed, so a reader knows which variables to set.
 !.env.example
 !.env.template
